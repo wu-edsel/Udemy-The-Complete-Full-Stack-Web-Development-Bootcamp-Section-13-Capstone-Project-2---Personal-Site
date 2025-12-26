@@ -1,0 +1,168 @@
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: oblique;
+  font-size: 4rem;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+  color: #9DB2BF;
+}
+
+.about-me-section {
+  display: block;
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  background-color: #27374D;
+  color: #DDE6ED;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  margin-bottom: 0;
+}
+
+.profile img {
+  height: 200px;
+  border-radius: 50%;
+  border-width: 20px;
+  border-style: solid;
+  border-color: #9DB2BF;
+}
+
+.work-experience-section {  
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  margin-top: 0;
+}
+.work-experience-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3rem;
+  font-weight: 500;
+  background-color: #526D82;
+  color: #DDE6ED;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.current-work-exp-container {
+  justify-content: center;
+  background-color: #DDE6ED;
+  color: #27374D;
+  padding-top: 75px;
+}
+
+.work-company {
+  font-size: 2rem;
+}
+
+.exp-points {
+  text-align: left;
+}
+.other-exp-points ul{
+  margin-bottom: 0px;
+  padding-bottom: 25px;
+}
+
+.trade-skill-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  justify-content: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 25px;
+}
+.trade-skill img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+.trade-skill p {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+.trade-exp-points {
+  grid-column: 1 / 4;
+}
+
+.past-work-exp-container {
+  background-color: #DDE6ED;
+  color: #27374D;
+  padding-bottom: 50px;
+}
+
+
+.hyphen-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+@media (max-width: 768px) {
+  .trade-skill-container {
+    display: block;
+    font-size: 0.5rem;
+  }
+  .hyphen-container {
+    grid-template-columns: 1fr;
+  }
+  .exp-points {
+    font-size: 0.8rem;
+  }
+}
+
+.third-work-exp {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.additional-skills-section {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  margin-top: 0;
+}
+.additional-skills-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3rem;
+  font-weight: 500;
+  background-color: #526D82;
+  color: #DDE6ED;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.additional-skills-tile-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 5px;
+  background-color: #DDE6ED;
+  color: #27374D;
+}
+.skill-tile-pic img{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .additional-skills-tile-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .additional-skills-tile-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.skill-tile-points {
+  font-size: 0.75rem;
+}
